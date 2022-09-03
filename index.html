@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="CSS.css">
 </head>
 <body>
-    <section class="calculator">
-        <form>
-            <input type="text" class="screen">
-        </form>
-        <div class="button">
-            <button type="button" class="btn btn-red" data-num="*">*</button>
-            <button type="button" class="btn btn-red" data-num="/">/</button>
-            <button type="button" class="btn btn-red" data-num="+">+</button>
-            <button type="button" class="btn btn-red" data-num="-">-</button>
-
-            <button type="button" class="btn btn-white" data-num="8">9</button>
-            <button type="button" class="btn btn-white" data-num="8">8</button>
-            <button type="button" class="btn btn-white" data-num="7">7</button>
-            <button type="button" class="btn btn-white" data-num="6">6</button>
-            <button type="button" class="btn btn-white" data-num="5">5</button>
-            <button type="button" class="btn btn-white" data-num="4">4</button>
-            <button type="button" class="btn btn-white" data-num="3">3</button>
-            <button type="button" class="btn btn-white" data-num="2">2</button>
-            <button type="button" class="btn btn-white"data-num="1">1</button>
-            <button type="button" class="btn btn-white"data-num="0">0</button>
-            <button type="button" class="btn btn-white"data-num=".">.</button>
-
-            <button type="button" class="btn-eqaul btn-blue">=</button>
-            <button type="button" class="btn-clear btn-green">C</button>
-
-
-        </div>
-
-    </section>
+   <form action="" name="cal" class="body-cal">
+    <div  >
+        <input type="text" name="display" class="screen" id="display">
+    </div>
+    <div class="btn-group">
+        <input type="button" class="btn btn-w " value="7" onclick="cal.display.value +='7'">
+        <input type="button" class="btn btn-w " value="8" onclick="cal.display.value +='8'">
+        <input type="button" class="btn btn-w " value="9" onclick="cal.display.value +='9'">
+        <input type="button" class="btn btn-gray" value="+" onclick="cal.display.value +='+'">
+        <br>
+        <input type="button" class="btn btn-w " value="4" onclick="cal.display.value +='4'">
+        <input type="button" class="btn btn-w " value="5" onclick="cal.display.value +='5'">
+        <input type="button" class="btn btn-w " value="6" onclick="cal.display.value +='6'">
+        <input type="button" class="btn btn-gray" value="-" onclick="cal.display.value +='-'">
+        <br>
+        <input type="button" class="btn btn-w " value="1" onclick="cal.display.value +='1'">
+        <input type="button" class="btn btn-w " value="2" onclick="cal.display.value +='2'">
+        <input type="button" class="btn btn-w " value="3" onclick="cal.display.value +='3'">
+        <input type="button" class="btn btn-gray" value="*" onclick="cal.display.value +='*'">
+        <br>
+        <input type="button" class="btn btn-clear" value="C" onclick="cal.display.value =''">
+        <input type="button" class="btn btn-w" value="0" onclick="cal.display.value +='0'">
+        <input type="button" class="btn btn-gray" value="/" onclick="cal.display.value +='/'">
+        <input type="button" class="btn btn-green" value="=" onclick="cal.display.value =eval(cal.display.value )">
+    </div>
+   </form>
     
 </body>
 </html>
