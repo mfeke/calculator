@@ -23,7 +23,7 @@ body form .screen{
     font-size:32px;
 }
 .btn-clear{
-    background-color: blue;
+    background-color:;
     font-size:32px;
 
 }
@@ -32,12 +32,12 @@ body form .screen{
     font-size:32px;
 }
 .btn-green{
-    background-color: green;
+    background-color:;
     font-size:32px;
 }
 .btn{
     width: 50px;
     height: 60px;
     margin: 5px;
-    border-radius: 50% ;
+    border-radius: 10px;
 }
