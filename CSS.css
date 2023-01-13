@@ -1,43 +1,32 @@
-body .body-cal {
-    box-shadow: 4px 4px 40px black;
-    height: 400px;
-    width: 300px;
-}
 form{
-    background-color: black;
-}
-body form .screen{
-    width:292px;
-    height: 80px;
-    font-size: 32px;
-    
-}
-.btn-group{
-    margin-left:28px ;
-  
-    justify-content: center;
-    
-}
-.btn-w{
-    background: #fff;
-    font-size:32px;
-}
-.btn-clear{
-    background-color:;
-    font-size:32px;
+
+    width: 280px;
+    box-shadow: 0px 0px 3px gray;
 
 }
-.btn-gray{
-    background-color: gray;
-    font-size:32px;
+.btn-group{
+    padding: 2px;
 }
-.btn-green{
-    background-color:;
-    font-size:32px;
+
+.screen{
+    height:100px ;
+    width: 97%;
+    font-size: 40px;
+    border: none;
+
 }
+
 .btn{
-    width: 50px;
-    height: 60px;
-    margin: 5px;
-    border-radius: 10px;
+    width: 60px;
+    margin:3px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.btn-green{
+    background-color: rgb(65, 65, 222);
 }
