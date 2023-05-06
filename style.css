@@ -9,6 +9,7 @@ form{
 }
 
 .screen{
+    padding-left:10px;
     height:100px ;
     width: 97%;
     font-size: 40px;
